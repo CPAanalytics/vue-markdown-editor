@@ -14,8 +14,8 @@
 ### Import Plugin：
 
 ```js
-import VueMarkdownEditor from '@kangc/v-md-editor';
-import createKatexPlugin from '@kangc/v-md-editor/lib/plugins/katex/cdn';
+import VueMarkdownEditor from '@cpaanalytics/v-md-editor';
+import createKatexPlugin from '@cpaanalytics/v-md-editor/lib/plugins/katex/cdn';
 
 VueMarkdownEditor.use(createKatexPlugin());
 ```

@@ -9,8 +9,8 @@
 ### 引入：
 
 ```js
-import VueMarkdownEditor from '@kangc/v-md-editor';
-import createTodoListPlugin from '@kangc/v-md-editor/lib/plugins/todo-list/index';
+import VueMarkdownEditor from '@cpaanalytics/v-md-editor';
+import createTodoListPlugin from '@cpaanalytics/v-md-editor/lib/plugins/todo-list/index';
 
 VueMarkdownEditor.use(createTodoListPlugin());
 ```

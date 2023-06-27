@@ -16,10 +16,10 @@ VMdEditor.use(createLineNumberPlugin())
 
 const text = `\`\`\` bash
 # use npm
-npm i @kangc/v-md-editor -S
+npm i @cpaanalytics/v-md-editor -S
 
 # use yarn
-yarn add @kangc/v-md-editor
+yarn add @cpaanalytics/v-md-editor
 \`\`\``
 
 export default {

@@ -24,4 +24,5 @@ Component.use = function (optionsOrInstall, opt) {
   return Component;
 };
 
+
 export default Component;

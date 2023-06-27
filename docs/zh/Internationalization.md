@@ -1,43 +1,43 @@
-# 国际化
+# Internationalization
 
-::: warning 注意
-1.4.0 版本开始支持国际化
+::: warning Note
+Starting from version 1.4.0, internationalization is supported.
 :::
 
-## 介绍
+## Introduction
 
-v-md-editor 默认采用中文作为语言，如果需要使用其他语言，可以参考下面的方案。
+v-md-editor uses Chinese as the default language. If you need to use another language, you can refer to the following approach.
 
-## 语言切换
+## Language Switching
 
-通过 use 方法可以切换当前使用的语言，示例如下：
+You can switch the currently used language by using the `use` method. Here's an example:
 
 ```js
-import enUS from '@kangc/v-md-editor/lib/lang/en-US';
+import enUS from '@cpaanalytics/v-md-editor/lib/lang/en-US';
 
 VueMarkdownEditor.lang.use('en-US', enUS);
 ```
 
-## 修改默认文案
+## Modifying Default Texts
 
-通过 add 方法可以实现文案的修改和扩展，示例如下：
+You can modify and extend the texts by using the `add` method. Here's an example:
 
 ```js
 VueMarkdownEditor.lang.add({
   'zh-CN': {
     h1: {
-      toolbar: '标题1',
+      toolbar: 'Heading 1',
     },
   },
 });
 ```
 
-## 配置文件
+## Configuration Files
 
-| 语言     | 文件名 |
-| -------- | ------ |
-| 简体中文 | zh-CN  |
-| 英语     | en-US  |
-| 韩文     | ko-KR  |
+| Language           | File Name |
+| ------------------ | --------- |
+| Simplified Chinese | zh-CN     |
+| English            | en-US     |
+| Korean             | ko-KR     |
 
-在 [这里](https://github.com/code-farmer-i/vue-markdown-editor/tree/dev/src/lang) 查看所有的 i18n 配置文件
+You can view all i18n configuration files [here](https://github.com/code-farmer-i/vue-markdown-editor/tree/dev/src/lang).

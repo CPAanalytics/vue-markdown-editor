@@ -17,8 +17,8 @@ vuepress:
 ### 引入：
 
 ```js
-import VueMarkdownEditor from '@kangc/v-md-editor';
-import createLineNumbertPlugin from '@kangc/v-md-editor/lib/plugins/line-number/index';
+import VueMarkdownEditor from '@cpaanalytics/v-md-editor';
+import createLineNumbertPlugin from '@cpaanalytics/v-md-editor/lib/plugins/line-number/index';
 
 VueMarkdownEditor.use(createLineNumbertPlugin());
 ```

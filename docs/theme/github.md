@@ -13,10 +13,10 @@ example：
 The theme package only supports js(javascript), xml(html), css by default. In order to avoid introducing too much redundant code, the package size is too large. If you need to support more language code highlighting, please introduce the corresponding language pack as needed.
 
 ```js
-import VueMarkdownEditor from '@kangc/v-md-editor';
+import VueMarkdownEditor from '@cpaanalytics/v-md-editor';
 // Introduce highlightjs language packs as needed, here is json as an example
 import json from 'highlight.js/lib/languages/json';
-import githubTheme from '@kangc/v-md-editor/lib/theme/github.js';
+import githubTheme from '@cpaanalytics/v-md-editor/lib/theme/github.js';
 
 VueMarkdownEditor.use(githubTheme, {
   extend(md, hljs) {

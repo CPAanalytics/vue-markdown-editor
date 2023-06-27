@@ -1,7 +1,7 @@
 # Xss Extension
 
 ```js
-import VMdEditor from '@kangc/v-md-editor';
+import VMdEditor from '@cpaanalytics/v-md-editor';
 
 VMdEditor.xss.extend({
   // extend white list

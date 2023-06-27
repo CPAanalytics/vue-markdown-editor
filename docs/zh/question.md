@@ -22,10 +22,10 @@ export default {
 
 ```js
 // main.js
-import VMdPreview from '@kangc/v-md-editor/lib/preview';
-import '@kangc/v-md-editor/lib/style/preview.css';
+import VMdPreview from '@cpaanalytics/v-md-editor/lib/preview';
+import '@cpaanalytics/v-md-editor/lib/style/preview.css';
 // 引入你所使用的主题 此处以 github 主题为例
-import githubTheme from '@kangc/v-md-editor/lib/theme/github';
+import githubTheme from '@cpaanalytics/v-md-editor/lib/theme/github';
 
 VMdPreview.use(githubTheme);
 Vue.use(VMdPreview);
@@ -60,9 +60,9 @@ export default {
 ```js
 // main.js
 import Vue from 'vue';
-import VueMarkdownEditor from '@kangc/v-md-editor';
-import '@kangc/v-md-editor/lib/style/base-editor.css';
-import createHljsTheme from '@kangc/v-md-editor/lib/theme/hljs';
+import VueMarkdownEditor from '@cpaanalytics/v-md-editor';
+import '@cpaanalytics/v-md-editor/lib/style/base-editor.css';
+import createHljsTheme from '@cpaanalytics/v-md-editor/lib/theme/hljs';
 // 按需引入 highlightjs 的语言包，此处以 json 为例
 import json from 'highlight.js/lib/languages/json';
 
@@ -84,9 +84,9 @@ Vue.use(VueMarkdownEditor);
 ```js
 // main.js
 import Vue from 'vue';
-import VueMarkdownEditor from '@kangc/v-md-editor';
-import '@kangc/v-md-editor/lib/style/base-editor.css';
-import creatPrismTheme from '@kangc/v-md-editor/lib/theme/prism';
+import VueMarkdownEditor from '@cpaanalytics/v-md-editor';
+import '@cpaanalytics/v-md-editor/lib/style/base-editor.css';
+import creatPrismTheme from '@cpaanalytics/v-md-editor/lib/theme/prism';
 // 直接按需引入 prism 的语言包即可，此处以 json 为例
 import 'prismjs/components/prism-json';
 
@@ -103,7 +103,7 @@ Vue.use(VueMarkdownEditor);
 ## 如何调用函数将 markdown 转为 html？
 
 ```js
-import VueMarkdownEditor, { xss } from '@kangc/v-md-editor';
+import VueMarkdownEditor, { xss } from '@cpaanalytics/v-md-editor';
 
 // 调用方法将 markdown 转换成 html 并使用 xss 过滤
 const html = xss.process(VueMarkdownEditor.themeConfig.markdownParser.render('### 标题'));

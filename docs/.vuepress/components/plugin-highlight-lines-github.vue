@@ -15,8 +15,8 @@ import createHighlightLinesPlugin from '../../../lib/plugins/highlight-lines/ind
 VMdEditor.use(createHighlightLinesPlugin());
 
 const text = `\`\`\` js {1,3}
-import VueMarkdownEditor from '@kangc/v-md-editor';
-import createHighlightLinesPlugin from '@kangc/v-md-editor/lib/plugins/highlight-lines/index';
+import VueMarkdownEditor from '@cpaanalytics/v-md-editor';
+import createHighlightLinesPlugin from '@cpaanalytics/v-md-editor/lib/plugins/highlight-lines/index';
 
 VueMarkdownEditor.use(createHighlightLinesPlugin());
 \`\`\``;

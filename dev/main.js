@@ -75,7 +75,6 @@ VueMarkdownEditor.use(createEmojiPlugin())
   .use(createMermaidPlugin());
 
 VueMarkdownEditor.Codemirror = Codemirror;
-
 app.use(VueMarkdownEditor);
 app.use(PreviewHtml);
 // app.use(Preview);

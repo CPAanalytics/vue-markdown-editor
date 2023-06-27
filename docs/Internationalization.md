@@ -13,7 +13,7 @@ v-md-editor uses Chinese as the language by default. If you need to use other la
 You can switch the currently used language through the use method.
 
 ```js
-import enUS from '@kangc/v-md-editor/lib/lang/en-US';
+import enUS from '@cpaanalytics/v-md-editor/lib/lang/en-US';
 
 VueMarkdownEditor.lang.use('en-US', enUS);
 ```

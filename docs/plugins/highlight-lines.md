@@ -15,8 +15,8 @@ vuepress:
 ### Import：
 
 ```js
-import VueMarkdownEditor from '@kangc/v-md-editor';
-import createHighlightLinesPlugin from '@kangc/v-md-editor/lib/plugins/highlight-lines/index';
+import VueMarkdownEditor from '@cpaanalytics/v-md-editor';
+import createHighlightLinesPlugin from '@cpaanalytics/v-md-editor/lib/plugins/highlight-lines/index';
 
 VueMarkdownEditor.use(createHighlightLinesPlugin());
 ```

@@ -7,8 +7,8 @@
 ### Import：
 
 ```js
-import VueMarkdownEditor from '@kangc/v-md-editor';
-import createTipPlugin from '@kangc/v-md-editor/lib/plugins/tip/index';
+import VueMarkdownEditor from '@cpaanalytics/v-md-editor';
+import createTipPlugin from '@cpaanalytics/v-md-editor/lib/plugins/tip/index';
 
 VueMarkdownEditor.use(createTipPlugin());
 ```

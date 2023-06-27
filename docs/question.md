@@ -22,10 +22,10 @@ If your project does not require editing functions and only needs to render mark
 
 ```js
 // main.js
-import VMdPreview from '@kangc/v-md-editor/lib/preview';
-import '@kangc/v-md-editor/lib/style/preview.css';
+import VMdPreview from '@cpaanalytics/v-md-editor/lib/preview';
+import '@cpaanalytics/v-md-editor/lib/style/preview.css';
 // Introduce the theme you use. Take the github theme as an example here
-import githubTheme from '@kangc/v-md-editor/lib/theme/github';
+import githubTheme from '@cpaanalytics/v-md-editor/lib/theme/github';
 
 VMdPreview.use(githubTheme);
 Vue.use(VMdPreview);
@@ -60,9 +60,9 @@ If your code highlighting chooses to use highlight.js:
 ```js
 // main.js
 import Vue from 'vue';
-import VueMarkdownEditor from '@kangc/v-md-editor';
-import '@kangc/v-md-editor/lib/style/base-editor.css';
-import createHljsTheme from '@kangc/v-md-editor/lib/theme/hljs';
+import VueMarkdownEditor from '@cpaanalytics/v-md-editor';
+import '@cpaanalytics/v-md-editor/lib/style/base-editor.css';
+import createHljsTheme from '@cpaanalytics/v-md-editor/lib/theme/hljs';
 // Introduce highlightjs language packs as needed, here is json as an example
 import json from 'highlight.js/lib/languages/json';
 
@@ -84,9 +84,9 @@ If your code highlighting chooses to use prismjs:
 ```js
 // main.js
 import Vue from 'vue';
-import VueMarkdownEditor from '@kangc/v-md-editor';
-import '@kangc/v-md-editor/lib/style/base-editor.css';
-import creatPrismTheme from '@kangc/v-md-editor/lib/theme/prism';
+import VueMarkdownEditor from '@cpaanalytics/v-md-editor';
+import '@cpaanalytics/v-md-editor/lib/style/base-editor.css';
+import creatPrismTheme from '@cpaanalytics/v-md-editor/lib/theme/prism';
 // Introduce prism language packs as needed, here is json as an example
 import 'prismjs/components/prism-json';
 
@@ -103,7 +103,7 @@ Vue.use(VueMarkdownEditor);
 ## How to call a function to convert markdown to html？
 
 ```js
-import VueMarkdownEditor, { xss } from '@kangc/v-md-editor';
+import VueMarkdownEditor, { xss } from '@cpaanalytics/v-md-editor';
 
 // Call method to convert markdown to html and use xss filtering
 const html = xss.process(VueMarkdownEditor.themeConfig.markdownParser.render('### 标题'));

@@ -15,10 +15,10 @@ markdown 解析使用 [markdown-it](https://github.com/markdown-it/markdown-it) 
 主题包默认只支持了 js(javascript), xml(html), css。以免引入太多冗余代码导致包的体积过大。如果需要支持更多的语言代码高亮，请按需引入对应的语言包。
 
 ```js
-import VueMarkdownEditor from '@kangc/v-md-editor';
+import VueMarkdownEditor from '@cpaanalytics/v-md-editor';
 // 按需引入 highlightjs 的语言包，此处以 json 为例
 import json from 'highlight.js/lib/languages/json';
-import githubTheme from '@kangc/v-md-editor/lib/theme/github.js';
+import githubTheme from '@cpaanalytics/v-md-editor/lib/theme/github.js';
 
 VueMarkdownEditor.use(githubTheme, {
   extend(md, hljs) {

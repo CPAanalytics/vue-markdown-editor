@@ -9,8 +9,8 @@ Quickly copy code blocks with buttons
 ### Import：
 
 ```js
-import VueMarkdownEditor from '@kangc/v-md-editor';
-import createCopyCodePlugin from '@kangc/v-md-editor/lib/plugins/copy-code/index';
+import VueMarkdownEditor from '@cpaanalytics/v-md-editor';
+import createCopyCodePlugin from '@cpaanalytics/v-md-editor/lib/plugins/copy-code/index';
 
 VueMarkdownEditor.use(createCopyCodePlugin());
 ```
@@ -28,9 +28,9 @@ export default {
     return {
       text: `\`\`\`js
 import Vue from 'vue';
-import VueMarkdownEditor from '@kangc/v-md-editor';
-import '@kangc/v-md-editor/lib/style/base-editor.css';
-import vuepressTheme from '@kangc/v-md-editor/lib/theme/vuepress.js';
+import VueMarkdownEditor from '@cpaanalytics/v-md-editor';
+import '@cpaanalytics/v-md-editor/lib/style/base-editor.css';
+import vuepressTheme from '@cpaanalytics/v-md-editor/lib/theme/vuepress.js';
 
 VueMarkdownEditor.use(vuepressTheme);
 

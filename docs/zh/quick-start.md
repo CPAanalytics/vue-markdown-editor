@@ -2,19 +2,19 @@
 
 ```bash
 # 使用 npm
-npm i @kangc/v-md-editor -S
+npm i @cpaanalytics/v-md-editor -S
 
 # 使用yarn
-yarn add @kangc/v-md-editor
+yarn add @cpaanalytics/v-md-editor
 ```
 
 ## 快速开始
 
 ```js
 import Vue from 'vue';
-import VueMarkdownEditor from '@kangc/v-md-editor';
-import '@kangc/v-md-editor/lib/style/base-editor.css';
-import vuepressTheme from '@kangc/v-md-editor/lib/theme/vuepress.js';
+import VueMarkdownEditor from '@cpaanalytics/v-md-editor';
+import '@cpaanalytics/v-md-editor/lib/style/base-editor.css';
+import vuepressTheme from '@cpaanalytics/v-md-editor/lib/theme/vuepress.js';
 
 VueMarkdownEditor.use(vuepressTheme);
 

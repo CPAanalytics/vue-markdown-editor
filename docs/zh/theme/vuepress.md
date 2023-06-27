@@ -64,8 +64,8 @@ vuepress 主题内置扩展了 tip 功能。同时你也可以在 left-toolbar �
 主题包默认只支持了 markup, html, xml, svg, mathml, css, clike, jacascript(js)。以免引入太多冗余代码导致包的体积过大。如果需要支持更多的语言代码高亮，请按需引入对应的语言包。
 
 ```js
-import VueMarkdownEditor from '@kangc/v-md-editor';
-import vuepressTheme from '@kangc/v-md-editor/lib/theme/vuepress.js';
+import VueMarkdownEditor from '@cpaanalytics/v-md-editor';
+import vuepressTheme from '@cpaanalytics/v-md-editor/lib/theme/vuepress.js';
 // 直接按需引入 prism 的语言包即可，此处以 json 为例
 import 'prismjs/components/prism-json';
 

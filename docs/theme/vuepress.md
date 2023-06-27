@@ -60,8 +60,8 @@ demo：
 The theme package only supports markup, html, xml, svg, mathml, css, clike, jacascript(js) by default. In order to avoid introducing too much redundant code, the package size is too large. If you need to support more language code highlighting, please introduce the corresponding language pack as needed.
 
 ```js
-import VueMarkdownEditor from '@kangc/v-md-editor';
-import vuepressTheme from '@kangc/v-md-editor/lib/theme/vuepress.js';
+import VueMarkdownEditor from '@cpaanalytics/v-md-editor';
+import vuepressTheme from '@cpaanalytics/v-md-editor/lib/theme/vuepress.js';
 // Introduce prism language packs as needed, here is json as an example
 import 'prismjs/components/prism-json';
 

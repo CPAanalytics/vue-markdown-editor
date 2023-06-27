@@ -9,8 +9,8 @@
 ### 引入：
 
 ```js
-import VueMarkdownEditor from '@kangc/v-md-editor';
-import createEmojiPlugin from '@kangc/v-md-editor/lib/plugins/emoji/index';
+import VueMarkdownEditor from '@cpaanalytics/v-md-editor';
+import createEmojiPlugin from '@cpaanalytics/v-md-editor/lib/plugins/emoji/index';
 
 VueMarkdownEditor.use(createEmojiPlugin());
 ```
